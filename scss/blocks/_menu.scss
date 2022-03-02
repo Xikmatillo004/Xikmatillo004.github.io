@@ -1,0 +1,151 @@
+.modal-dialog2 {
+    animation-name: modal-mover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.fade:not(.show) .modal-dialog2{
+    animation-name: modal-mover2 !important;
+    animation-duration: 0.5s !important;
+}
+.modal-width{
+    width: 23%;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+@keyframes modal-mover {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes modal-mover2 {
+    0% {
+        opacity: 1 !important;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1 !important;
+        transform: translateX(-200%);
+    }
+}
+.bg-bookmark{
+    background-color: #2784be;
+}
+.menu__icon{
+    font-size: 1.5rem;
+}
+.display-6{
+    font-size: 12px; 
+ }
+.fff{
+    margin-left: 990%;
+}
+.profile{
+   width: 70px;  
+}
+.h-5px{
+   height: 5px;
+}
+.display-5{
+   font-size: 28px;
+}
+.display-7{
+   font-size: 20px;
+}
+.fixed{
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+.height1{
+   height: 90vh;
+   overflow: auto;
+}
+.ml-6{
+   margin-left: 270px;
+}
+.fixed1{
+   z-index: 1100;
+   left: 25%;
+}
+.opacitiy05{
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.397));
+}
+.mt-6{
+   margin-top: 50px;
+   margin-bottom: 56px;
+}
+.opacity-link{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.199));
+}
+.img-not{
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(8, 8, 8, 0.623), rgba(5, 5, 5, 0.616)), url(/img/3.jpg);
+    height: 268px;
+}
+.top-left{
+    top: 5px;
+    left: 5px;
+}
+.z-index{
+    height: 100vh !important;
+    z-index: 2000;
+}
+.profile-img{
+    width: 60px !important;
+    height: 60px !important;
+}
+.mediumpurple{
+    background-color: mediumpurple;
+}
+.right{
+    right: 0;
+    top: 50px;
+    height: 100vh;
+    padding-bottom: 120px;
+}
+.right-index{ 
+    right: 0;
+    top: 0;
+    z-index: 1100;
+   
+}
+.text-mediumpurple{
+    color: mediumpurple;
+}
+.shadow-0{
+    box-shadow: none !important;
+}
+.mr-25{
+    margin-right: 23.7% !important;
+}
+.profile-img1{
+    width: 45px !important;
+    height: 45px !important;
+}
+.file{
+    width: 55px;
+    height: 55px;
+}
+.opacity04{
+    background-color: #dfffb5;
+}
+.right-top{
+    right: 10px;
+    top: 18px;
+}
+.malumot{
+    margin-left: 40px !important;
+}
+.z-index1{
+    z-index: 2200;
+}
+.z-index2{
+    z-index: 0;
+}
+.play{
+    font-size: 50px;
+}
